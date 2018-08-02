@@ -1,4 +1,7 @@
-# Haar-Cascade
+# Real Time Face detection
+
+**What is Face detection?**
+## Using Haar-Cascade
 
 Heading
 =======
