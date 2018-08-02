@@ -1,6 +1,5 @@
 # Haar-Cascade
-HELLO World
-====
+
 Heading
 =======
 
