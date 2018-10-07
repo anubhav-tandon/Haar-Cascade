@@ -6,16 +6,49 @@ Face detection is a computer technology being used in a variety of applications 
 
 ## Using Haar-Cascade
 The Haar Classifier is a machine learning based approach, an algorithm created by Paul Viola and Michael Jones; which are trained from many many positive images (with faces) and negatives images (without faces).
+
+_It starts by extracting Haar features from each image as shown below:_
+
 <img src="/Images/haarfeatures.png">
 
-## Sub-heading
+## Opencv on Python
 
-Paragraphs are separated
-by a blank line.
+ **DEPENDENCIES
 
-Two spaces at the end of a line  
-produces a line break.
+Let's first install the required dependencies to run this code.
 
+    OpenCV 3.2.0 should be installed.
+    Python v3.5 should be installed.
+    (Optional) Matplotlib 2.0 should be installed if you want to see results in an organized manner as I've shown in this tutorial. But it's completely optional.
+
+Note: If you don't want to install matplotlib, then replace matplotlib code with OpenCV code as shown below:
+
+Instead of:
+plt.imshow(gray_img, cmap='gray')
+1
+	
+plt.imshow(gray_img, cmap='gray')
+
+You can use:
+cv2.imshow('Test Imag', gray_img) 
+cv2.waitKey(0) 
+cv2.destroyAllWindows()
+
+	
+**cv2.imshow('Test Imag', gray_img) 
+**cv2.waitKey(0) 
+**cv2.destroyAllWindows()
+
+**cv2.imshow(window_name, image):**
+This is a cv2 function used to display the image. It also takes two arguments: the first one is the name of the window that will pop-up to show the picture and the second one is the image you want to display.
+**cv2.waitKey():**
+This is a keyboard binding function, which takes one argument: (x) time in milliseconds. The function delays for (x) milliseconds any keyboard event. If (0) is pressed, it waits indefinitely for a keystroke, if any other key is pressed the program continues.
+**cv2.destroyAllWindows():**
+This simply destroys all the windows we created using cv2.imshow(window_name, image)
+
+
+
+ 
 Text attributes _italic_, 
 **bold**, `monospace`.
 
