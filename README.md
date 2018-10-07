@@ -19,13 +19,13 @@ Let's first install the required dependencies to run this code.
 
     OpenCV 3.2.0 should be installed.
     Python v3.5 should be installed.
-    (Optional) Matplotlib 2.0 should be installed if you want to see results in an organized manner as I've shown in this tutorial. But it's completely optional.
+    (Optional) Matplotlib 2.0 should be installed if you want to see results in an organized manner.
 
 Note: If you don't want to install matplotlib, then replace matplotlib code with OpenCV code as shown below:
 
 Instead of:
 plt.imshow(gray_img, cmap='gray')
-1
+
 	
 plt.imshow(gray_img, cmap='gray')
 
@@ -35,14 +35,15 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 
 	
-**cv2.imshow('Test Imag', gray_img) 
-**cv2.waitKey(0) 
-**cv2.destroyAllWindows()
+* cv2.imshow('Test Imag', gray_img) 
+* cv2.waitKey(0) 
+* cv2.destroyAllWindows()
 
 **cv2.imshow(window_name, image):**
 This is a cv2 function used to display the image. It also takes two arguments: the first one is the name of the window that will pop-up to show the picture and the second one is the image you want to display.
 **cv2.waitKey():**
 This is a keyboard binding function, which takes one argument: (x) time in milliseconds. The function delays for (x) milliseconds any keyboard event. If (0) is pressed, it waits indefinitely for a keystroke, if any other key is pressed the program continues.
+
 **cv2.destroyAllWindows():**
 This simply destroys all the windows we created using cv2.imshow(window_name, image)
 
