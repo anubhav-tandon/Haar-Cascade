@@ -34,13 +34,13 @@ You can use:
 * cv2.waitKey(0) 
 * cv2.destroyAllWindows()
 
-**1 cv2.imshow(window_name, image):**
+* **cv2.imshow(window_name, image):**
 This is a cv2 function used to display the image. It also takes two arguments: the first one is the name of the window that will pop-up to show the picture and the second one is the image you want to display.
 
-**2 cv2.waitKey():**
+* **cv2.waitKey():**
 This is a keyboard binding function, which takes one argument: (x) time in milliseconds. The function delays for (x) milliseconds any keyboard event. If (0) is pressed, it waits indefinitely for a keystroke, if any other key is pressed the program continues.
 
-**3 cv2.destroyAllWindows():**
+* **cv2.destroyAllWindows():**
 This simply destroys all the windows we created using cv2.imshow(window_name, image)
 
 
