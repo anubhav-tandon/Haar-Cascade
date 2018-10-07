@@ -6,6 +6,7 @@ Face detection is a computer technology being used in a variety of applications 
 
 ## Using Haar-Cascade
 The Haar Classifier is a machine learning based approach, an algorithm created by Paul Viola and Michael Jones; which are trained from many many positive images (with faces) and negatives images (without faces).
+<img src="/Images/haarfeatures.png">
 
 ## Sub-heading
 
