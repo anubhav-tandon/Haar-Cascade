@@ -30,10 +30,6 @@ plt.imshow(gray_img, cmap='gray')
 plt.imshow(gray_img, cmap='gray')
 
 You can use:
-* cv2.imshow('Test Imag', gray_img) 
-* cv2.waitKey(0) 
-* cv2.destroyAllWindows()
-
 * **cv2.imshow(window_name, image):**
 This is a cv2 function used to display the image. It also takes two arguments: the first one is the name of the window that will pop-up to show the picture and the second one is the image you want to display.
 
