@@ -1,10 +1,11 @@
 # Real Time Face detection
+Face Recognition is becoming a new trend in the security authentication systems. Modern FR systems can even detect, if the person is real(live) or not while doing face recognition, preventing the systems being hacked by showing the picture of a real person. I am sure, everyone wondered when Facebook implemented the auto-tagging technique. It identifies the person and tag him/her when ever you upload a picture.
 
 **What is Face detection?**
-## Using Haar-Cascade
+Face detection is a computer technology being used in a variety of applications that identifies human faces in digital images. Face detection also refers to the psychological process by which humans locate and attend to faces in a visual scene.
 
-Heading
-=======
+## Using Haar-Cascade
+The Haar Classifier is a machine learning based approach, an algorithm created by Paul Viola and Michael Jones; which are trained from many many positive images (with faces) and negatives images (without faces).
 
 ## Sub-heading
 
