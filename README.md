@@ -13,7 +13,7 @@ _It starts by extracting Haar features from each image as shown below:_
 
 ## Opencv on Python
 
- **DEPENDENCIES
+ **DEPENDENCIES**
 
 Let's first install the required dependencies to run this code.
 
@@ -41,6 +41,7 @@ cv2.destroyAllWindows()
 
 **cv2.imshow(window_name, image):**
 This is a cv2 function used to display the image. It also takes two arguments: the first one is the name of the window that will pop-up to show the picture and the second one is the image you want to display.
+
 **cv2.waitKey():**
 This is a keyboard binding function, which takes one argument: (x) time in milliseconds. The function delays for (x) milliseconds any keyboard event. If (0) is pressed, it waits indefinitely for a keystroke, if any other key is pressed the program continues.
 
