@@ -30,22 +30,17 @@ plt.imshow(gray_img, cmap='gray')
 plt.imshow(gray_img, cmap='gray')
 
 You can use:
-cv2.imshow('Test Imag', gray_img) 
-cv2.waitKey(0) 
-cv2.destroyAllWindows()
-
-	
 * cv2.imshow('Test Imag', gray_img) 
 * cv2.waitKey(0) 
 * cv2.destroyAllWindows()
 
-**cv2.imshow(window_name, image):**
+**1.cv2.imshow(window_name, image):**
 This is a cv2 function used to display the image. It also takes two arguments: the first one is the name of the window that will pop-up to show the picture and the second one is the image you want to display.
 
-**cv2.waitKey():**
+**2.cv2.waitKey():**
 This is a keyboard binding function, which takes one argument: (x) time in milliseconds. The function delays for (x) milliseconds any keyboard event. If (0) is pressed, it waits indefinitely for a keystroke, if any other key is pressed the program continues.
 
-**cv2.destroyAllWindows():**
+**3.cv2.destroyAllWindows():**
 This simply destroys all the windows we created using cv2.imshow(window_name, image)
 
 
