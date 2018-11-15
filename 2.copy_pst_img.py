@@ -1,3 +1,4 @@
+# This code is used to open an image file, using cv2.imread as well as copying its roi and pasting it to the image itself.
 import numpy as np
 import cv2
 
