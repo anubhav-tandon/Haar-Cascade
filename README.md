@@ -49,17 +49,21 @@ Horizontal rule:
 
 ---
 
-Bullet list:
+Learning python and cv2 basic features:
 
-  * apples
-  * oranges
-  * pears
+  * Learning how to use imread and other features of cv2.
+  * Opening a webcam using python.
+  * Manipulating an image file in python using opencv library.
+  * Turning a frame to gray color.
+  * Since, detecting from a gray frame reduces the work load and no color matching is required.
 
-Numbered list:
+Using haar-cascade.py:
 
-  1. wash
-  2. rinse
-  3. repeat
+  1. Open haar-cascade.py using python 3.5 or high.
+  2. Download the haar-cascade xml files.
+  3. Run the python file using python idle.
+  4. Look in the webcam and let haar-cascade detect your face.
+  5. Close the window.
 
 A [link](http://example.com).
 
