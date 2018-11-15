@@ -1,3 +1,4 @@
+# In this file we will draw some shapes and put some text on the image file.
 import cv2
 import numpy as np
 
