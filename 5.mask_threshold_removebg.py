@@ -1,3 +1,4 @@
+# In this code, the background of an image will be removed,leaving only the required portion in the frame.
 import cv2
 import numpy as np
 
