@@ -1,3 +1,4 @@
+# Adding two images directly or through weight.
 import cv2
 import numpy as np
 
