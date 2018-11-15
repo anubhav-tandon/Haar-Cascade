@@ -1,3 +1,5 @@
+# In this file we open the webcam and record the video using VideoWriter object i.e. "fourcc".
+# The orginal frame is coverted to gray color and the gray frame is recorded using out object.
 import cv2
 import numpy as np
 # 0 for 1st webcam, 1 for 2nd webcam and so on...
@@ -10,7 +12,7 @@ while True:
     ret, frame = cap.read()                         # Capture frame-by-frame
     gray = cv2.cvtColor(frame,cv2.COLOR_BGR2GRAY)   # Convert to gray
     #frame = cv2.flip(frame,0)                      # 0->inverted to 180 degree or use -ve dimension eg -180
-    #out.write(frame)
+    out.write(frame)
     cv2.imshow('frame',frame)
     cv2.imshow('gray',gray)
 
@@ -18,5 +20,5 @@ while True:
         break
 
 cap.release()
-#out.release()
+out.release()
 cv2.destroyAllWindows()
